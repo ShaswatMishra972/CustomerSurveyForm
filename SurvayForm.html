@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="SurvayForm.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1><u>Customer Survey Form</u></h1>
+    </div>
+    <form action="#" id="myform" method="post">
+        <fieldset>
+            <!-- FIRST NAME -->
+            <div class="name1">
+                <label for="">FirstName</label>
+                <input type="text" name="FirstName" required id="FirstName">
+            </div>
+            <!-- LAST NAME -->
+            <div class="name2">
+                <label for="">LastName</label>
+                <input type="text" name="LastName" required id="LastName">
+            </div>
+            <!-- DATE OF BIRTH -->
+            <div class="dob">
+                <label for="">DOB</label>
+                <input type="date" name="DOB" required id="dob">
+            </div>
+            <!-- COUNTRY NAME -->
+            <div class="country">
+                <label for=""> Country</label>
+                <select required id="con">
+                    <option value=""></option>
+                    <option value="">India</option>
+                    <option value="">Pakistan</option>
+                    <option value="">Bangaladesh</option>
+                    <option value="">Nepal</option>
+                    <option value="">SriLanka</option>
+                    <option value="">Chaina</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+
+            <!-- GENDER -->
+            <div class="gender">
+                <label for="">Gender</label>
+                <input type="radio" name="selection" required id="Male">Male
+                <input type="radio" name="selection" required id="Female">Female
+                <input type="radio" name="selection" required id="Other">Other
+            </div>
+
+            <!-- PROFESSION -->
+            <div class="profession">
+                <label for="">Profession</label>
+                <input type="text" required id="pro">
+            </div>
+
+            <!-- EMAIL -->
+            <div class="email">
+                <label for="">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- MOBILE NUMBER -->
+            <div class="mobile">
+                <label for=""> MobileNo.</label>
+                <input type="tel" name="mobile" id="mobile" required>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="button">
+                <input type="submit" value="submit" id="submit" onclick="clearform()">
+                <input type="reset" id="reset">
+            </div>
+
+
+        </fieldset>
+
+    </form>
+    <script src="SurvayForm.js"></script>
+
+</body>
+
+</html>
