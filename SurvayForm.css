@@ -10,7 +10,7 @@
       padding: 25px 25px;
       margin: 25px auto;
       max-width: 350px;
-      background: white;
+      background: white; 
   }
 
   .name1 {
@@ -134,6 +134,7 @@
       border: none;
       background-color: cadetblue;
       height: 28px;
+    cursor:pointer;
   }
 
   #submit {
@@ -143,4 +144,5 @@
       border: none;
       background-color: cadetblue;
       height: 28px;
+    cursor:pointer;
   }
